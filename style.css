@@ -1,12 +1,15 @@
 img{
     border-radius: 16px;
-    width: 500px;
+    width: 750px;
 }
 
 body{
     background-image: url(assets/bg-image.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573A37;
 }
 
 #page{
@@ -16,4 +19,17 @@ body{
     background-color: #F0E8C2;
     border-radius: 24px;
     margin: 48px auto;
+}
+
+h1{
+    line-height: 140%;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h1, h2{
+    color: #291B1A;
 }
