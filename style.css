@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 img{
     border-radius: 16px;
     width: 750px;
@@ -21,9 +26,14 @@ body{
     margin: 48px auto;
 }
 
+main {
+    padding: 24px;
+}
+
 h1{
     line-height: 140%;
     font-size: 40px;
+    margin-bottom: 4px;
 }
 
 h2{
@@ -32,4 +42,18 @@ h2{
 
 h1, h2{
     color: #291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+#desc{
+    list-style-type: none;
+    margin-top: 12px;
+}
+section + section {
+    margin-top: 24px;
+}
+
+ul{
+    padding-left: 24px;
 }
